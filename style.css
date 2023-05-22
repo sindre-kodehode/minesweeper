@@ -1,0 +1,27 @@
+* {
+  margin  : 0 ;
+  padding : 0 ;
+}
+
+#field {
+  display       : grid   ;
+  gap           : 1px    ;
+  padding       : 20px   ;
+  place-content : center ;
+}
+
+#field > div {
+  background    : darkgray ;
+  display       : grid     ;
+  place-content : center   ;
+  place-items   : center   ;
+}
+
+#field > div:hover {
+  filter : brightness( 90% ) ;
+}
+
+#field > div:focus,
+#field > div:active {
+  filter : brightness( 120% ) ;
+}
